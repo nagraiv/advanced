@@ -1,6 +1,10 @@
 import orderByProps from '../orderByProps'
 
 describe('Тестируем функцию orderByProps на корректность передаваемых параметров', () => {
+    it('программа не упадёт, если вызвать функцию без аргументов', () => {
+        expect(() => orderByProps()).not.toThrowError();
+    });
+
     it('должна выбрасываться ошибка, если второй аргумент - не массив', () => {
         expect(() => orderByProps({}, '5')).toThrow('Array expected!');
     });
