@@ -1,3 +1,5 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/rtwb5bgghc2m7a4o/branch/master?svg=true)](https://ci.appveyor.com/project/nagraiv/advanced/branch/master)
+
 # Домашнее задание к лекции «Object, Reflection и Proxy» [ссылка](https://github.com/netology-code/ajs-homeworks/tree/ajs8/advanced)
 
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
